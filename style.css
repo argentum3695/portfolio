@@ -4,13 +4,19 @@
 }
 
 :root{
-    --bg-colour: #f8f9fa;
+    --bg-colour: #f9f9f9;
+    --c1: #2d728f;
+    --c2: #3b8ea5;
+    --c3: #92CEDF;
+    --c4: #C8EBF5;
 }
 
 
 #intro {
     text-align: center;
-    margin-top: 30vh;
+    /* margin-top: 30vh; */
+        /* border: 1px solid black; */
+
 
 }
 
@@ -27,4 +33,144 @@ body {
 }
 
 
+.navbutton {
+    /* background-color: #ced4da; */
+    background-color: var(--c2);
+    border: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
 
+}
+
+.navbutton:hover{
+    /* background-color: #adb5bd; */
+    background-color: var(--c3);
+    cursor:pointer;
+}
+
+#projects {
+    /* text-align: center; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    height: 20rem;
+    /* width: 20rem; */
+    /* border: 1px solid black; */
+align-content: stretch;
+    /* border: 1px solid black; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* margin: auto; */
+
+
+}
+
+#projects button {
+    display: inline-block;
+    margin:0.5rem;
+    
+}
+
+#projects a{
+    text-decoration: none;
+}
+
+.project-type{
+    text-align: center;
+    width: 40rem;
+    /* border: 1px solid black; */
+    margin: 0.5rem;
+    background-color: var(--c4);
+    border-radius: 1.5rem;
+
+}
+
+.project-type:hover {
+  background-color: var(--c3);
+  cursor: pointer;
+}
+
+/* @media (max-width: 800px) {
+  #projects {
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .project-type {
+    flex: 100%;
+    width: 80vw;
+  }
+} */
+
+.navbar {
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem 0.7rem;
+    color: black;
+    border-radius: 0.5rem;
+    
+
+}
+
+
+#active {
+  /* color: #6c757d; */
+  color: white;
+  background-color: var(--c2);
+
+  /* color: var(--c1); */
+}
+#active:hover {
+  background-color: var(--c3);
+  color: black;
+}
+
+.navbar a:hover {
+  /* color: #495057; */
+  /* background-color: black; */
+  color: var(--c2)
+}
+
+
+.navbar .icon {
+    display: none;
+}
+
+.navbar .icon:hover {
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
