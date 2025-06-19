@@ -79,6 +79,7 @@ align-content: stretch;
     text-decoration: none;
 }
 
+
 .project-type{
     text-align: center;
     width: 40rem;
@@ -87,6 +88,11 @@ align-content: stretch;
     background-color: var(--c4);
     border-radius: 1.5rem;
 
+}
+
+.project-type p {
+  font-size: 1.25rem;
+  padding: 1rem;
 }
 
 .project-type:hover {
