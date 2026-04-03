@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+       <link rel="stylesheet" href="riemann-sum-demo.css">
+<body>
+
+<canvas id="myCanvas" width="1000" height="800">
+</canvas>
+
+<div id="minMaxInput">
+    <input id="minValInput" class="numberInput" type="text" value="0"> < x < 
+    <input id="maxValInput" class="numberInput" type="text" value="25">
+    <button id="changeMinMax" >Change Function Bounds</button>
+</div>
+<div id="sliderOutput"></div>
+<div class="slidecontainer">
+  <input type="range" min="1" max="200" value="1" class="slider" id="myRange">
+</div>
+
+
+<div id="functionInfo">
+    <div id="minmax"></div>
+    <div id="lowerArea"></div>
+    <div id="upperArea"></div>
+    <div id="theoreticalArea"></div>
+    <div>Function: y = x^2</div>
+</div>
+
+<script src="riemann-sum-demo.js"></script>
+
+
+</body>
+</html>

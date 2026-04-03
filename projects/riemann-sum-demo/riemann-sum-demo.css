@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=IBM+Plex+Sans&family=Open+Sans&display=swap');
+* {
+    font-family: "DM Sans";
+}
+
+#upperArea {
+    color: red;
+}
+
+.canvas {
+    border: none;
+}
+
+#myRange {
+    width: 20rem;
+}
+
+.numberInput {
+    width: 5rem;
+}
