@@ -181,11 +181,25 @@ body {
 }
 
 .tag {
-  position: absolute;
-  left: 1rem;
-  top: 1rem;
+  /* position:absolute; */
+  /* left: 1rem;
+  top: 1rem; */
   background-color: var(--c1);
   padding: 0.25rem;
   border-radius: 0.5rem;
   color: var(--bg-colour);
+  margin: 0.25rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+}
+
+.tags{
+  width: 100%;
+  display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    /* align-items: stretch; */
+    text-align: center;
+    padding-left: 0.5rem;
 }

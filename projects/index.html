@@ -35,25 +35,36 @@
         <label for="check-elec"> Electronics Projects</label><br>
         <input type="checkbox" id="check-code" name="check-code" value="Code" onclick="filterProjects();", checked>
         <label for="check-code"> Code Projects</label><br>
+        <input type="checkbox" id="check-in-progress" name="check-in-progress" value="In progress" onclick="filterProjects();", checked>
+        <label for="check-in-progress"> In progress</label><br>
 
     </div>
 
 
     <div id="projects">
         <div class="project code-project" onclick="window.open('./asteroiddodge.html', '_blank')">
+            <div class="tags">
+            <div class="tag">code</div>
+            </div>
             <h2>Asteroid Dodge</h2>
 
-            <div class="tag">code</div>
+            
             <p>
                 Dodge the asteroids!<br>
                 Use the arrow keys to move, c to mine, t to enable target overlays, and p to park.
             </p>
             
         </div>
-        <div class="project code-project" onclick="window.open('./riemann-sum-demo', '_blank')">
+        <div class="project code-project project-in-progress" onclick="window.open('./riemann-sum-demo', '_blank')">
+            <div class="tags">
+              <div class="tag">code</div>
+            <div class="tag">in progress</div>  
+            </div>
+            
+
             <h2>Riemann Sum Demonstration</h2>
 
-            <div class="tag">code</div>
+            
             <p>
                 A demonstration of using rectangular sections to approximate the area under a curve.
             </p>
