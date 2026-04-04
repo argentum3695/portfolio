@@ -1,32 +1,44 @@
 <!DOCTYPE html>
 <html>
-       <link rel="stylesheet" href="riemann-sum-demo.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="lettera.ico">
+    <title>Riemann Sum Demo</title>
+    <link rel="stylesheet" href="riemann-sum-demo.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+</head>
+
 <body>
 
-<canvas id="myCanvas" width="1000" height="800">
-</canvas>
+    <canvas id="myCanvas" width="1000" height="800">
+    </canvas>
 
-<div id="minMaxInput">
-    <input id="minValInput" class="numberInput" type="text" value="0"> < x < 
-    <input id="maxValInput" class="numberInput" type="text" value="25">
-    <button id="changeMinMax" >Change Function Bounds</button>
-</div>
-<div id="sliderOutput"></div>
-<div class="slidecontainer">
-  <input type="range" min="1" max="200" value="1" class="slider" id="myRange">
-</div>
+    <div id="minMaxInput">
+        <input id="minValInput" class="numberInput" type="text" value="0">
+        < x < <input id="maxValInput" class="numberInput" type="text" value="25">
+            <button id="changeMinMax">Change Function Bounds</button>
+    </div>
+    <div id="sliderOutput"></div>
+    <div class="slidecontainer">
+        <input type="range" min="1" max="200" value="1" class="slider" id="myRange">
+    </div>
 
 
-<div id="functionInfo">
-    <div id="minmax"></div>
-    <div id="lowerArea"></div>
-    <div id="upperArea"></div>
-    <div id="theoreticalArea"></div>
-    <div>Function: y = x^2</div>
-</div>
+    <div id="functionInfo">
+        <div id="minmax"></div>
+        <div id="lowerArea"></div>
+        <div id="upperArea"></div>
+        <div id="theoreticalArea"></div>
+        <div>Function: y = x^2</div>
+    </div>
 
-<script src="riemann-sum-demo.js"></script>
+    <script src="riemann-sum-demo.js"></script>
 
 
 </body>
+
 </html>
