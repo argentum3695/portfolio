@@ -176,8 +176,29 @@ body {
   }
 }
 
-#filter {
-  text-align: center;
+ #filter {
+   text-align: center;
+}
+
+/*
+
+#filter input{
+  border: 1px solid red;
+}
+
+#filter label{
+  border: 1px solid red;
+  width: auto;
+}
+
+#filter-container {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+} */
+
+#filter label{
+  padding-right: 0.5rem;
 }
 
 .tag {
