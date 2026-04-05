@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=IBM+Plex+Sans&family=Open+Sans&display=swap');
+* {
+    font-family: "DM Sans";
+}
+
+
+#input {
+    text-align: center;
+    font-size: 3rem;
+}
+
+#input::placeholder {
+    text-align: center;
+}
+
+#dnainput {
+    font-size: 1.5rem;
+}
+
+#dna-input {
+    font-size: 1.5rem;
+}
+
+
+#output {
+    text-align: center;
+}
+
+#rna, #proteins {
+    font-size: 1.5rem;
+}
+
+span {
+    color: red;
+}
+
+input::placeholder {
+    text-align: center;
+}
