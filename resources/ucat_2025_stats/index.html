@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../resource_page_style.css">
+
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>2025 UCAT ANZ Statistics</title>
+</head>
+
+<body>
+    <div id="nav" class="mininav"> <a href="../"> ← Resources</a></div>
+
+    <div id="intro" class="intro">
+        <h1>2025 UCAT ANZ Statistics</h1>
+    </div>
+
+    <div id="graph" style="width:900px;height:600px;"></div>
+
+    <div id="content" class="content">
+        Hover over the graph to see what percentile a score corresponds to!
+        <br>
+        <br>
+
+        Data sourced from the UCAT ANZ website at <a href="https://www.ucat.edu.au/results/test-statistics/">https://www.ucat.edu.au/results/test-statistics/</a>
+        <br>
+        The 2025 UCAT percentile calculator was used to obtain more detailed data than what the summary statistics offer.
+        These calculators are usually only available for a limited time, which is why I graphed the data.
+        <br>
+        Scores are provided in increments of 10, as far as I know; smaller increments were only used to acquire data at a higher resolution.
+        <br> <br>
+        <a class="small" href="./2025_ucat_results.csv" download>Download the raw CSV data</a>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>

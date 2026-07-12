@@ -18,7 +18,7 @@ body {
     background-color: var(--bg-colour);
 }
 
-#intro {
+.intro {
     text-align: center;
     /* margin-top: 30vh; */
         /* border: 1px solid black; */
@@ -26,11 +26,11 @@ body {
 
 }
 
-#intro p {
+.intro p {
     font-size: 1.5rem;
 }
 
-#intro h1 {
+.intro h1 {
     font-weight: bold;
 }
 
@@ -224,4 +224,35 @@ body {
     /* align-items: stretch; */
     text-align: center;
     padding-left: 0.5rem;
+}
+
+.content {
+    margin: 2rem 5rem;
+}
+
+.small {
+    font-size: 0.7rem;
+
+}
+
+.mininav {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.mininav a {
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem 0.7rem;
+    color: black;
+    border-radius: 0.5rem;
+}
+
+.mininav a:hover {
+  /* color: #495057; */
+  /* background-color: black; */
+  color: var(--c2)
 }
