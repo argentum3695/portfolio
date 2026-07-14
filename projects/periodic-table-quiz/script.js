@@ -27,7 +27,7 @@ document.getElementById("results").innerText = `Enter element ${currentElement}`
 function checkInput() {
 
     if (currentElement <=118) {
-         foundElementIndex = checkElement(inputBox.value);
+         foundElementIndex = checkElement(inputBox.value.toLowerCase());
 
     if (foundElementIndex != -1) {
         if (foundElementIndex + 1 == currentElement) {
